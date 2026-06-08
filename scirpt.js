@@ -42,8 +42,8 @@ if(age >= 18){
 
 // Word Finder
 
-// Way 1
 
+// Way 1
 // let sentence = "My Name Is Shaheer";
 
 // let word = "Name"
@@ -54,7 +54,6 @@ if(age >= 18){
 
 
 // Way 2
-
 let sentence = "My Name Is Shaheer";
 let word = "Name";
 
@@ -70,5 +69,50 @@ for (let i = 0; i <= sentence.length - word.length; i++) {
         console.log("Found");
     }
 }
+
+
+//Vowel Counter
+
+
+// wWay 1
+// let str = "education"
+// let vowels = "aeiou"
+// let count =0;
+
+// for(let i = 0; i < str.length; i++){
+    
+//     if(vowels.includes(str[i])){
+//         count++;
+//     }
+// }
+
+
+// console.log(count);
+
+
+//Way2
+
+let name = "shaheer"
+let vowel = "aeiou"
+
+let count = 0;
+
+
+for(let i = 0; i < name.length; i++){
+    
+    if(
+        name[i] === "a" ||
+        name[i] === "e" ||
+        name[i] === "i" ||
+        name[i] === "o" ||
+        name[i] === "u"
+    ){
+     count++;
+    }
+}
+
+console.log(count);
+
+
 
 
