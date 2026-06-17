@@ -110,8 +110,44 @@ for(let i = 0; i < name.length; i++){
      count++;
     }
 }
-
 console.log(count);
+
+
+
+
+// 5. Reverse Words + Case Change (strings methods)
+// let str = "hello world";
+// Task:
+// Convert to uppercase
+// Then reverse each word
+
+
+
+
+let str = "Ronaldo Sui"
+
+str = str.toUpperCase();
+
+let arr = str.split(" ");
+
+
+for(let i= 0; i < arr.length ; i++){
+   let reverse = "";
+
+
+for(let j= arr[i].length -1 ; j >=0 ;i-- ){
+
+    reversed += [i][j];
+
+}
+   arr[i] = reversed;
+}
+
+let result = arr.join(" ")
+console.log(result);
+
+
+
 
 
 
