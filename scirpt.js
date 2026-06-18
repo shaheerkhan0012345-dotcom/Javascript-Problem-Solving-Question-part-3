@@ -10,20 +10,20 @@
 
 // Number To String
 
-let num = "45"
-let convert = Number(num);
+// let num = "45"
+// let convert = Number(num);
 
-console.log(convert);
+// console.log(convert);
 
 
-// if / else → age condition
-let age = 17;
+// // if / else → age condition
+// let age = 17;
 
-if(age >= 18){
-    console.log("You Are Superman")
-}else{
-    console.log("You Are Nothing")
-}
+// if(age >= 18){
+//     console.log("You Are Superman")
+// }else{
+//     console.log("You Are Nothing")
+// }
 
 
 
@@ -54,21 +54,21 @@ if(age >= 18){
 
 
 // Way 2
-let sentence = "My Name Is Shaheer";
-let word = "Name";
+// let sentence = "My Name Is Shaheer";
+// let word = "Name";
 
-for (let i = 0; i <= sentence.length - word.length; i++) {
+// for (let i = 0; i <= sentence.length - word.length; i++) {
     
-    let part = "";
+//     let part = "";
 
-    for (let j = 0; j < word.length; j++) {
-        part += sentence[i + j];
-    }
+//     for (let j = 0; j < word.length; j++) {
+//         part += sentence[i + j];
+//     }
 
-    if (part === word) {
-        console.log("Found");
-    }
-}
+//     if (part === word) {
+//         console.log("Found");
+//     }
+// }
 
 
 //Vowel Counter
@@ -92,25 +92,25 @@ for (let i = 0; i <= sentence.length - word.length; i++) {
 
 //Way2
 
-let name = "shaheer"
-let vowel = "aeiou"
+// let name = "shaheer"
+// let vowel = "aeiou"
 
-let count = 0;
+// let count = 0;
 
 
-for(let i = 0; i < name.length; i++){
+// for(let i = 0; i < name.length; i++){
     
-    if(
-        name[i] === "a" ||
-        name[i] === "e" ||
-        name[i] === "i" ||
-        name[i] === "o" ||
-        name[i] === "u"
-    ){
-     count++;
-    }
-}
-console.log(count);
+//     if(
+//         name[i] === "a" ||
+//         name[i] === "e" ||
+//         name[i] === "i" ||
+//         name[i] === "o" ||
+//         name[i] === "u"
+//     ){
+//      count++;
+//     }
+// }
+// console.log(count);
 
 
 
@@ -124,27 +124,51 @@ console.log(count);
 
 
 
-let str = "Ronaldo Sui"
+// let str = "Ronaldo Sui"
 
-str = str.toUpperCase();
+// str = str.toUpperCase();
 
-let arr = str.split(" ");
-
-
-for(let i= 0; i < arr.length ; i++){
-   let reverse = "";
+// let arr = str.split(" ");
 
 
-for(let j= arr[i].length -1 ; j >=0 ;i-- ){
+// for(let i= 0; i < arr.length ; i++){
+//    let reverse = "";
 
-    reversed += [i][j];
 
+// for(let j= arr[i].length -1 ; j >=0 ;i-- ){
+
+//     reversed += [i][j];
+
+// }
+//    arr[i] = reversed;
+// }
+
+// let result = arr.join(" ")
+// console.log(result);
+
+
+
+// 6. Even Number Filter
+// let arr = [11, 22, 33, 44, 55, 66];
+// HINTS:
+// for loop
+// % 2 === 0
+// push() new array
+
+let arr = [11,22, 33, 44, 55, 66];
+let even = []
+
+for(let i=0; i < arr.length;i++){
+
+    if(arr[i]%2 === 0){
+
+        even.push(arr[i]);
+
+    }
 }
-   arr[i] = reversed;
-}
 
-let result = arr.join(" ")
-console.log(result);
+console.log(even)
+
 
 
 
