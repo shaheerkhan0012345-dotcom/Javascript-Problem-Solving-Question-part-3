@@ -155,22 +155,56 @@
 // % 2 === 0
 // push() new array
 
-let arr = [11,22, 33, 44, 55, 66];
-let even = []
+// let arr = [11,22, 33, 44, 55, 66];
+// let even = []
 
-for(let i=0; i < arr.length;i++){
+// for(let i=0; i < arr.length;i++){
 
-    if(arr[i]%2 === 0){
+//     if(arr[i]%2 === 0){
 
-        even.push(arr[i]);
+//         even.push(arr[i]);
+
+//     }
+// }
+
+// console.log(even)
+
+
+
+// 7. Second Largest
+// let arr = [5, 12, 8, 20, 15];
+// HINTS:
+// for loop
+// 2 variables:
+// largest
+// secondLargest
+// comparison >
+
+
+
+let arr = [5 ,12 ,8 ,20 ,15];
+
+let largest = -Infinity;
+ let secondLargest = -Infinity;
+
+
+ for(let i=0 ; i < arr.length;i++){
+
+    if( arr[i] > largest){
+
+        secondLargest = largest
+        largest = arr[i]
 
     }
-}
 
-console.log(even)
+    else if( arr[i] > secondLargest){
 
+        secondLargest = arr[i]
 
+    }
 
+ }
+ console.log(largest);
 
 
 
