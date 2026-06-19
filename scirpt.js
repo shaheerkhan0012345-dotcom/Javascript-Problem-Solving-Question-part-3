@@ -182,29 +182,63 @@
 
 
 
-let arr = [5 ,12 ,8 ,20 ,15];
+// let arr = [5 ,12 ,8 ,20 ,15];
 
-let largest = -Infinity;
- let secondLargest = -Infinity;
+// let largest = -Infinity;
+//  let secondLargest = -Infinity;
 
 
- for(let i=0 ; i < arr.length;i++){
+//  for(let i=0 ; i < arr.length;i++){
 
-    if( arr[i] > largest){
+//     if( arr[i] > largest){
 
-        secondLargest = largest
-        largest = arr[i]
+//         secondLargest = largest
+//         largest = arr[i]
+
+//     }
+
+//     else if( arr[i] > secondLargest){
+
+//         secondLargest = arr[i]
+
+//     }
+
+//  }
+//  console.log(largest);
+
+
+
+
+//  8. Remove Negative Numbers (arrays + condition)
+// let arr = [10, -5, 20, -3, 30];
+// Task:
+// Create new array without negatives
+
+
+
+let arr = [10 , -5 , 20 , -3 , 30];
+
+let positive = [];
+
+for(let i = 0; i < arr.length ;i++){
+
+    if(arr[i] >= 0){
+
+        positive.push(arr[i]);
+
 
     }
 
-    else if( arr[i] > secondLargest){
+}
+console.log(positive);
 
-        secondLargest = arr[i]
+// 9. Number Search (loop + break + condition)
+// let arr = [3, 7, 9, 12, 15];
+// let target = 9;
+// Task:
+// Check if target exists
+// Use break when found
 
-    }
-
- }
- console.log(largest);
 
 
 
