@@ -216,21 +216,21 @@
 
 
 
-let arr = [10 , -5 , 20 , -3 , 30];
+// let arr = [10 , -5 , 20 , -3 , 30];
 
-let positive = [];
+// let positive = [];
 
-for(let i = 0; i < arr.length ;i++){
+// for(let i = 0; i < arr.length ;i++){
 
-    if(arr[i] >= 0){
+//     if(arr[i] >= 0){
 
-        positive.push(arr[i]);
+//         positive.push(arr[i]);
+//     }
+// }
+// console.log(positive);
 
 
-    }
 
-}
-console.log(positive);
 
 // 9. Number Search (loop + break + condition)
 // let arr = [3, 7, 9, 12, 15];
@@ -238,6 +238,26 @@ console.log(positive);
 // Task:
 // Check if target exists
 // Use break when found
+
+
+
+
+let arr = [3, 7 , 9, 12 , 15];
+let target = 9;
+
+
+for(let i =0; i < arr.length;i++){
+
+    if(arr[i] === target){
+
+        console.log(arr[i]);
+        break;
+
+    }
+
+}
+
+
 
 
 
