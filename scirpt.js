@@ -258,6 +258,35 @@ for(let i =0; i < arr.length;i++){
 }
 
 
+// 10. While Loop Practice
+// Print numbers 1 to 15
+
+
+let i = 1;
+
+while (i <= 15) {
+    console.log(i);
+    i++;
+}
+
+
+
+
+// 11. Skip a Value (continue)
+// Print all numbers except 3
+
+
+let arr = [1, 2, 3, 4, 5];
+
+for (let i = 0; i < arr.length; i++) {
+
+    if (arr[i] === 3) {
+        continue;
+    }
+
+    console.log(arr[i]);
+}
+
 
 
 
