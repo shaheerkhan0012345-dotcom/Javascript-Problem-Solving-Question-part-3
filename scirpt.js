@@ -242,32 +242,32 @@
 
 
 
-let arr = [3, 7 , 9, 12 , 15];
-let target = 9;
+// let arr = [3, 7 , 9, 12 , 15];
+// let target = 9;
 
 
-for(let i =0; i < arr.length;i++){
+// for(let i =0; i < arr.length;i++){
 
-    if(arr[i] === target){
+//     if(arr[i] === target){
 
-        console.log(arr[i]);
-        break;
+//         console.log(arr[i]);
+//         break;
 
-    }
+//     }
 
-}
+// }
 
 
 // 10. While Loop Practice
 // Print numbers 1 to 15
 
 
-let i = 1;
+// let i = 1;
 
-while (i <= 15) {
-    console.log(i);
-    i++;
-}
+// while (i <= 15) {
+//     console.log(i);
+//     i++;
+// }
 
 
 
@@ -276,20 +276,40 @@ while (i <= 15) {
 // Print all numbers except 3
 
 
-let arr = [1, 2, 3, 4, 5];
+// let arr = [1, 2, 3, 4, 5];
 
-for (let i = 0; i < arr.length; i++) {
+// for (let i = 0; i < arr.length; i++) {
 
-    if (arr[i] === 3) {
-        continue;
-    }
+//     if (arr[i] === 3) {
+//         continue;
+//     }
 
-    console.log(arr[i]);
+//     console.log(arr[i]);
+// }
+
+
+
+
+// 12. Type Checker
+// Code
+
+let a;
+let b = null;
+let c = 10;
+
+console.log(typeof a);
+console.log(typeof b);
+console.log(typeof c);
+
+
+// 13. Split String
+// Code
+
+
+let str = "I love coding";
+
+let words = str.split(" ");
+
+for (let i = 0; i < words.length; i++) {
+    console.log(words[i]);
 }
-
-
-
-
-
-
-
